@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/logo-fisiohyc.png" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>FisioH&C - Login</title>
+  </head>
+  <body>
+    <!-- Pills navs -->
+    <!-- Section: Design Block -->
+    <nav
+      class="navbar navbar-expand-lg fixed-top px-2 py-0 navbar-transparent"
+      id="mainNavbar"
+    >
+      <div class="container-fluid">
+        <span class="logo">
+          <img
+            src="assets/logo-fisiohyc.png"
+            class="img-fluid navbar-logo"
+            alt=""
+          />
+        </span>
+        <span class="text-white ms-2 display-6">FisioH&C</span>
+        <button
+          class="navbar-toggler text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+        >
+          <i class="bi bi-list fs-3"></i>
+        </button>
+        <div class="collapse navcollapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-white"
+                ><i class="bi bi-house-door fs-3"></i> Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="index.html#acerca-de" class="nav-link text-white"
+                ><i class="bi bi-person-circle fs-3"></i> Acerca de</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#servicios" class="nav-link text-white"
+                ><i class="bi bi-briefcase fs-3"></i> Servicios</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#contactos" class="nav-link text-white"
+                ><i class="bi bi-phone fs-3"></i> Contactos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="login.html"
+                class="btn btn-sm d-flex align-items-center gap-2 btn-outline-primary"
+                ><i class="bi bi-box-arrow-in-right fs-3"></i>Iniciar Sesion</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="heros-login py-5 mb-5 overflow-hidden">
+      <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+        <div class="row gx-lg-5 align-items-center mb-5">
+          <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
+            <h1 class="my-5 display-5 text-white fw-bold ls-tight">
+              Unidad de Rehabilitación <br />
+              <span class="text-info">Neuro Mundo</span>
+            </h1>
+            <p class="mb-4 text-white lead">
+              Bienvenido a Neuro Mundo, la plataforma de gestión de citas y
+              seguimiento clínico especializada en fisioterapia.<br />
+              <br />
+              Consulta tu historial de tratamientos, programa y gestiona tus
+              citas con especialistas, y accede a informes y recomendaciones
+              personalizadas para tu recuperación. Inicia sesión y mantén tu
+              tratamiento al alcance de un clic.
+            </p>
+          </div>
+
+          <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+            <div
+              id="radius-shape-1"
+              class="position-absolute rounded-circle shadow-5-strong"
+            ></div>
+            <div
+              id="radius-shape-2"
+              class="position-absolute shadow-5-strong"
+            ></div>
+
+            <div class="card bg-glass rounded-1">
+              <div class="card-body px-4 py-5 px-md-5">
+                <form>
+                  <!-- 2 column grid layout with text inputs for the first and last names -->
+                  <div class="row"></div>
+
+                  <!-- Email input -->
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input
+                      type="email"
+                      id="form3Example3"
+                      class="form-control"
+                    />
+                    <label class="form-label" for="form3Example3"
+                      >Cédula:</label
+                    >
+                  </div>
+
+                  <!-- Password input -->
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input
+                      type="password"
+                      id="form3Example4"
+                      class="form-control"
+                    />
+                    <label class="form-label" for="form3Example4"
+                      >Contraseña</label
+                    >
+                  </div>
+
+                  <!-- Checkbox -->
+
+                  <!-- Submit button -->
+                  <button
+                    type="submit"
+                    data-mdb-button-init
+                    data-mdb-ripple-init
+                    class="btn btn-outline-warning btn-block mb-4"
+                  >
+                    Iniciar Sesión
+                  </button>
+
+                  <!-- Register buttons -->
+                  <div class="text-center">
+                    <p>¿Nuevo en Neuro Mundo? Regístrate aquí:</p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Design Block -->
+    <footer class="text-center">
+      <!-- Grid container -->
+      <div class="p-4 pb-0">
+        <!-- Section: Social media -->
+        <div class="mb-4">
+          <!-- Facebook -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998"
+            href="#!"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee"
+            href="#!"
+            role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <!-- Google -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39"
+            href="#!"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac"
+            href="#!"
+            role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #0082ca"
+            href="#!"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <!-- Github -->
+          <a
+            data-mdb-ripple-init
+            class="btn text-white btn-floating m-1"
+            style="background-color: #333333"
+            href="#!"
+            role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-3"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2025 Copyright:Unidad de Rehabilitación "Neuro Mundo"
+        <a class="text-body" href="https://wa.me/584262854197"
+          >TeraDev Agencia Digital</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script>
+      // JS para cambiar clase cuando se hace scroll
+      const navbar = document.getElementById("mainNavbar");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+          navbar.classList.add("navbar-scrolled");
+          navbar.classList.remove("navbar-transparent");
+        } else {
+          navbar.classList.remove("navbar-scrolled");
+          navbar.classList.add("navbar-transparent");
+        }
+      });
+    </script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
