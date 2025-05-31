@@ -149,7 +149,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 110vh;
+    height: 120vh;
     position: relative;
     padding-top: 90px;
 
@@ -246,7 +246,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 110vh;
+  min-height: 150vh;
   position: relative;
   padding-top: 90px;
 
