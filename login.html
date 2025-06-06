@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/personalizado.css" />
     <title>FisioH&C - Login</title>
   </head>
   <body>
@@ -62,7 +63,7 @@
             <li class="nav-item">
               <a
                 href="login.html"
-                class="btn btn-sm d-flex align-items-center gap-2 btn-outline-primary"
+                class="btn btn-sm d-flex align-items-center gap-2 btn-outline-light"
                 ><i class="bi bi-box-arrow-in-right fs-3"></i>Iniciar Sesion</a
               >
             </li>
@@ -85,6 +86,12 @@
               informes y recomendaciones personalizadas para tu recuperación.
               Inicia sesión y mantén tu tratamiento al alcance de un clic.
             </p>
+            <button
+              href=""
+              class="btn btn-outline-info m-2 btn-sm d-flex align-items-center gap-2 montserrat-600 mover"
+            >
+              <i class="bi bi-person-plus fs-3"></i>Registrarte
+            </button>
           </div>
 
           <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
@@ -94,54 +101,64 @@
             ></div>
             <div id="radius-shape-2" class="shadow-5-strong"></div>
 
-            <div class="card bg-glass rounded-1">
-              <div class="card-body px-4 py-5 px-md-5">
+            <div class="card bg-glass py-2 px-2" style="border-radius: 20px">
+              <div class="card-body px-2 py-5 px-md-5">
                 <form>
                   <!-- 2 column grid layout with text inputs for the first and last names -->
                   <div class="row">
-                    <h4 class="text-warning display-5 py-4">Iniciar sesión</h4>
+                    <h4 class="text-warning display-6 text-center py-4">
+                      Iniciar sesión
+                    </h4>
                   </div>
 
                   <!-- Email input -->
-                  <div data-mdb-input-init class="form-outline mb-4">
+                  <div class="form-input mb-4">
                     <input
-                      type="email"
+                      type="text"
                       id="form3Example3"
-                      class="form-control"
+                      class="form-control bg-input p-2"
+                      placeholder="Cédula"
                     />
-                    <label class="form-label" for="form3Example3"
-                      >Cédula:</label
-                    >
                   </div>
 
                   <!-- Password input -->
-                  <div data-mdb-input-init class="form-outline mb-4">
+                  <div class="form-input mb-3">
                     <input
                       type="password"
                       id="form3Example4"
-                      class="form-control"
+                      class="form-control bg-input p-2"
+                      placeholder="Contraseña"
                     />
-                    <label class="form-label" for="form3Example4"
-                      >Contraseña</label
-                    >
                   </div>
 
                   <!-- Checkbox -->
+                  <div class="pb-3 pt-0">
+                    <label for="show-password">Mostrar Contraseña</label>
+                    <input type="checkbox" class="checkbox" />
+                  </div>
+                  <div class="pb-4">
+                    <a href="" class="text-secondary">
+                      ¿Olvidó su Contraseña?</a
+                    >
+                  </div>
 
                   <!-- Submit button -->
-                  <button
-                    type="submit"
-                    data-mdb-button-init
-                    data-mdb-ripple-init
-                    class="btn btn-outline-warning btn-block mb-4"
-                  >
-                    Iniciar Sesión
-                  </button>
+                  <div class="d-flex justify-content-center gap">
+                    <button
+                      type="submit"
+                      data-mdb-button-init
+                      data-mdb-ripple-init
+                      class="btn btn-outline-warning btn-block mb-2 d-flex align-items-center gap-2"
+                    >
+                      <i class="bi bi-box-arrow-in-right fs-3"></i>
+                      Iniciar Sesión
+                    </button>
+                  </div>
 
                   <!-- Register buttons -->
-                  <div class="text-center">
+                  <!-- <div class="text-center">
                     <p>¿Nuevo en Neuro Mundo? Regístrate aquí:</p>
-                  </div>
+                  </div> -->
                 </form>
               </div>
             </div>

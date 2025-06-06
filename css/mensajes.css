@@ -1,0 +1,61 @@
+
+    button{
+      outline: none;
+    }
+
+    body {
+        background-color: hsla(132, 0%, 100%, 1);
+    background-image: radial-gradient(circle at 91% 11%, hsla(13, 100%, 88%, 0.66) 4.038772213247173%, transparent 37.2265767974114%), radial-gradient(circle at 66% 37%, hsla(323, 100%, 88%, 1) 0%, transparent 63.33640956108327%), radial-gradient(circle at 36% 87%, hsla(268, 100%, 88%, 1) 12.107536057085522%, transparent 63.33640956108327%);
+    background-blend-mode: normal, normal, normal;
+   
+
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .main-container {
+      display: flex;
+      flex-wrap: wrap;
+      min-height: 100vh;
+    }
+
+   
+
+    .content-wrapper {
+      flex: 1;
+      padding: 2rem;
+    }
+
+    .card-custom {
+      border: 1px solid #dee2e6;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      background: #fff;
+      margin-bottom: 1.5rem;
+    }
+
+    .card-custom h5 {
+      margin-bottom: 0.5rem;
+    }
+
+    .card-custom .text-muted {
+      font-size: 0.9rem;
+    }
+
+    
+
+    @media (max-width: 768px) {
+      .main-container {
+        flex-direction: column;
+      }
+
+      .navbar-col {
+        min-width: 100%;
+        padding: 1rem 0.5rem;
+      }
+
+      .content-wrapper {
+        padding: 1rem;
+      }
+    }
